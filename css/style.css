@@ -47,14 +47,17 @@ a {
    transition: 0.5s ease 0s;
    transform: translate(0px, 0px);
 }
-.header__link:hover{
+
+.header__link:hover {
    transition: 0.5s ease 0s;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
    transform: translate(-3px, -3px);
 }
-.about__link:active{
+
+.about__link:active {
    transform: translate(3px, 3px);
 }
+
 .menu__icon {
    padding-left: 60px;
 }
@@ -184,7 +187,8 @@ a {
    border-radius: 50px;
    transition: 0.5s ease 0s;
 }
-.name__link:hover{
+
+.name__link:hover {
    transition: 0.5s ease 0s;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -215,12 +219,14 @@ a {
    line-height: 100%;
    color: #0067FF;
 }
-.med__sub-title{
+
+.med__sub-title {
    font-weight: 400;
-font-size: 14px;
-line-height: 1.6;
-color: #444444;
+   font-size: 14px;
+   line-height: 1.6;
+   color: #444444;
 }
+
 .med__service {
    background: #F7F8FC;
 }
@@ -485,7 +491,7 @@ color: #444444;
 .about__end-text::before {
    content: "";
    position: absolute;
-   background-image: url(/img/Vector.svg);
+   background-image: url(./img/Vector.svg);
    background-repeat: no-repeat;
    width: 14px;
    height: 10px;
@@ -502,14 +508,17 @@ color: #444444;
    transition: 0.5s ease 0s;
    transform: translate(0px, 0px);
 }
-.about__link:hover{
+
+.about__link:hover {
    transition: 0.5s ease 0s;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
    transform: translate(-3px, -3px);
 }
-.about__link:active{
+
+.about__link:active {
    transform: translate(3px, 3px);
 }
+
 .about__end {
    margin-bottom: 34px;
 }
@@ -580,7 +589,7 @@ color: #444444;
 
 .appo__images::after {
    content: "";
-   background-image: url(/img/appo-sub.png);
+   background-image: url(./img/appo-sub.png);
    background-repeat: no-repeat;
    margin: 0 auto;
    width: 100%;
@@ -635,14 +644,17 @@ color: #444444;
    transition: 0.5s ease 0s;
    transform: translate(0px, 0px);
 }
-.appo__link:hover{
+
+.appo__link:hover {
    transition: 0.5s ease 0s;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
    transform: translate(-3px, -3px);
 }
-.appo__link:active{
+
+.appo__link:active {
    transform: translate(3px, 3px);
 }
+
 /*team*/
 .wrapper__team {
    padding: 0 20px;
@@ -1036,14 +1048,16 @@ color: #444444;
 }
 
 @media (max-width:850px) {
-   .about__sub-title{
+   .about__sub-title {
       margin-bottom: 20px;
    }
-   .sub__menu-link{
+
+   .sub__menu-link {
       padding: 25px;
       font-size: 25px;
    }
-   .name__wrapper{
+
+   .name__wrapper {
       min-height: 530px;
    }
 
