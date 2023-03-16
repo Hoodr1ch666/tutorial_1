@@ -196,7 +196,7 @@ a {
 .name {
    height: 728px;
    background: #8BD5DC;
-   background-image: url(./img/name.png);
+   background-image: url(../img/name.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 40% 0;
